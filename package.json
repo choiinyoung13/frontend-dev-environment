@@ -1,0 +1,29 @@
+{
+  "name": "frontend-dev-environment",
+  "version": "1.0.0",
+  "description": "\"프론트엔드 개발 환경의 이해\" 강의 자료입니다.",
+  "homepage": "https://github.com/choiinyoung13/frontend-dev-environment#readme",
+  "bugs": {
+    "url": "https://github.com/choiinyoung13/frontend-dev-environment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choiinyoung13/frontend-dev-environment.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "babel-loader": "^10.0.0"
+  }
+}
