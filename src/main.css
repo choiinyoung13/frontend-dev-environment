@@ -31,7 +31,7 @@
   height: 20px;
   width: 20px;
   background: url(images/times-circle.png?2a32eee45a9f280f743fb36b7c530d98) no-repeat 50%/contain;
-  opacity: .15
+  opacity: 1
 }
 
 .FormView .btn-reset:hover {
@@ -188,7 +188,7 @@
   height: 20px;
   width: 20px;
   background: url(images/times-circle.png?2a32eee45a9f280f743fb36b7c530d98) no-repeat 50%/contain;
-  opacity: .15
+  opacity: 1
 }
 
 .HistoryView .btn-remove:hover {
