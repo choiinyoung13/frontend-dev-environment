@@ -23,6 +23,11 @@
   },
   "homepage": "https://github.com/jeonghwan-kim/lecture-frontend-dev-env#readme",
   "dependencies": {
-    "style-loader": "^4.0.0"
+    "clean-webpack-plugin": "^4.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.5",
+    "mini-css-extract-plugin": "^2.9.4",
+    "style-loader": "^4.0.0",
+    "url-loader": "^4.1.1"
   }
 }
