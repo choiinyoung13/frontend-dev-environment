@@ -1,1 +1,1 @@
-const alert = window.alert(msg)
+new Promise()

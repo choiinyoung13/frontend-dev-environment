@@ -11,7 +11,7 @@ module.exports = (env, argv) => {
   return {
     mode,
     entry: {
-      main: './src/app.js',
+      main: './app.js',
     },
     output: {
       filename: '[name].js',
@@ -53,6 +53,11 @@ module.exports = (env, argv) => {
           generator: {
             filename: '[name][ext]?[hash]',
           },
+        },
+        {
+          test: /\.js$/,
+          loader: 'babel-loader',
+          exclude: '/node_modules/',
         },
       ],
     },
